@@ -1,0 +1,17 @@
+{
+  "name": "Eternity",
+  "description": "Get that damn moments tab out of here!!!",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": ["eternity.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Eternity"
+  },
+  "manifest_version": 2
+}
